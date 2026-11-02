@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.come/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+     :root {
+        --main-color: #34495e;
+        --black: #222;
+        --white: #fff;
+        --light-black: #777;
+        --light-white: #fff9;
+        --dark-bg: rgba(0, 0, 0, .7);
+        --light-bg: #eee;
+        --border: 1rem solid var(--black);
+        --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+        --text-shadow: 0 1.5rem 3remrgba(0, 0, 0, .3)
+    }
+    
+    * {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    
+    html {
+        font-size: 62.5%;
+        overflow-x: hidden;
+    }
+    
+    html::-webkit-scrollbar {
+        width: 1rem;
+    }
+    
+    html::-webkit-scrollbar-track {
+        background-color: var(--white);
+    }
+    
+    html::-webkit-scrollbar-thumb {
+        background-color: var(--main-color);
+    }
+    
+    section {
+        padding: 5rem 10%;
+    }
+    
+    @keyframes fadeIn {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+    }
+
+    .header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        background-color:#34495e;
+        display: flex;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        box-shadow: var(--box-shadow);
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header .logo {
+        font-size: 2.5rem;
+        color: var(--white);
+    }
+    
+    .header .navbar a {
+        font-size: 2rem;
+        margin-left: 2rem;
+        color: var(--white);
+        border-radius: 3px;
+        padding: 6px 8px;
+        border: 1px solid transparent;
+    }
+    
+    .header .navbar a.active, .header .navbar a:hover{
+        background: #2bab0d;
+        border: 1px solid white;
+        transition: .5s;
+    }
+    
+    #menu-btn {
+        font-size: 2.5rem;
+        cursor: pointer;
+        color: var(--white);
+        display: none;
+    }
+.fields{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(maize2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    height: 350px;
+    text-align: center;
+}
+.fields1{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(wheat.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fields2{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(slide1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fields3{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(millet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fields4{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(img18.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fields5{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(maize.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fields6{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(rice.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fields7{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(rice.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fields h1{
+    font-size: 70px;
+    padding-top: 100px;
+}
+
+.fields p{
+    font-size: 26px;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: var(--light-white);
+}
+    
+.about .image {
+    flex: 1 1 41rem;
+}
+    
+.about .image img {
+    width: 100%;
+}
+    
+.about .content {
+    flex: 1 1 41rem;
+    text-align: center;
+}
+    
+    .about .content h3 {
+        font-size: 3rem;
+        color: var(--black);
+    }
+    
+    .about .content p {
+        font-size: 1.5rem;
+        color: var(--light-black);
+        line-height: 1.5;
+        padding: 1rem 0;
+    }
+
+.brief{
+    display: flex;
+    height: 88%;
+}
+.col{
+    flex-basis: 50%;
+    background-color: rgba(105, 10, 101, 0.445);
+}
+.col h2{
+    color: #2bab0d;
+    text-shadow: 60%;
+    font-size: 70px;
+}
+.col p{
+    color: white;
+    font-size: 15px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+}
+button a:hover, button a{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+}
+.places{
+    width: 270px;
+    height: 300px;
+    display: inline-table;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.places1{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(img15.jpg);
+}
+.places2{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url(livestock2.jpg);
+}
+.places3{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(sugarcane.png);
+}
+.places4{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(slide1.jpg);
+}
+.places5{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(avocado.jpg);
+}
+.places6{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(livestock.jpg);
+}
+.places7{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(pyrethrum.jpg);
+}
+.places8{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(cotton.jpg);
+}
+.places9{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(flowers.jpg);
+}
+.places10{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(coffee.jpg);
+}
+.places11{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(sisal.jpg);
+}
+.places12{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(cassava.jpg);
+}
+.places13{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(millet.jpg);
+}
+.places14{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(cashewnuts.jpg);
+}
+.places15{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(rice.jpg);
+}
+.places16{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(sorghum.jpg);
+}
+.places17{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(wheat.jpg);
+}
+.places18{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(watermelon.jpg);
+}
+.places19{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(onions.jpg);
+}
+.places20{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(cowpeas.png);
+}
+.places21{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(irishp.jpg);
+}
+.places22{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(sweetp.jpg);
+}
+.places23{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(kales.jpg);
+}
+.places24{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(mangoes.jpg);
+}
+.places25{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(beans.jpg);
+}
+.places26{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(pea.png);
+}
+.places:hover{
+    transform: translateY(-10px);
+}
+h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2bab0d;
+}
+.pesticides{
+    text-align: center;
+    background: #2bab0d;
+    height: 270px;
+}
+.pesticides h3 {
+    font-size: 40px;;
+    color: var(--white);
+    padding-top: 12px;
+}
+.pesticides p {
+    font-size:23px;
+    color: var(--light-white);
+    line-height: 1.5;
+    padding: 1rem 0;
+    text-align: left;
+}
+.pesticides a{
+    font-size: 20px;
+    text-align: left;
+}
+
+.footer {
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(footerbg12.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .footer .box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 2.5rem;
+    }
+    
+    .footer .box-container .box h3 {
+        color: var(--white);
+        font-size: 2.5rem;
+        padding-bottom: 2rem;
+    }
+    
+    .footer .box-container .box a {
+        color: var(--light-white);
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+        display: block;
+    }
+    
+    .footer .box-container .box a i {
+        color:#8e44ad;
+        padding-right: .5rem;
+        transition: .2s linear;
+    }
+    
+    .footer .box-container .box a:hover i {
+        padding-right: 2rem;
+    }
+    
+    .footer .credit {
+        text-align: center;
+        padding-top: 3rem;
+        margin-top: 3rem;
+        border-top: .1rem solid var(--light-white);
+        font-size: 2rem;
+        color: var(--white);
+    }
+    
+    .footer .credit span {
+        color: #8e44ad;
+    }
+
+
+    /*media queries*/
+    
+    @media(max-width: 1200px) {
+        section {
+            padding: 3rem 5%;
+        }
+    }
+    
+    @media(max-width: 991px) {
+        html {
+            font-size: 55%;
+        }
+        section {
+            padding: 3rem 2rem;
+        }
+    }
+    
+    @media(max-width: 768px) {
+        #menu-btn {
+            display: inline-block;
+            transition: .2s linear;
+        }
+        #menu-btn.fa-times {
+            transform: rotate(180deg);
+        }
+        .header .navbar {
+            position: absolute;
+            top: 99%;
+            left: 0;
+            right: 0;
+            background: #34495e;
+            border-top: var(--border);
+            padding: 2rem;
+            transition: .2s linear;
+            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        }
+        .header .navbar.active {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+        .header .navbar a {
+            display: block;
+            margin: 2rem;
+            text-align: center;
+            width: 100px;
+            margin-left: 220px;
+        }
+    }
+    
+    @media(max-width: 450px) {
+        html {
+            font-size: 50%;
+        }
+    }

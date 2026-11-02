@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+
+    <!--Swiper css link-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--custom css link-->
+    <link rel="stylesheet" href="../KEFRAM/style.css">
+</head>
+
+<body>
+    <!--header section starts-->
+    <section class="header">
+        <a href="../KEFRAM/index.html" class="logo">E-Farm.</a>
+        <nav class="navbar">
+            <a href="../KEFRAM/index.html">home</a>
+            <a href="../KEFRAM/services.html" class="active">services</a>
+            <a href="../KEFRAM/fields.html">fields</a>
+            <a href="../KEFRAM/operations.html">operations</a>
+            <a href="../KEFRAM/register.html">register</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </section>
+    <!--header section ends-->
+    <!-- booking section starts -->
+
+    <section class="booking">
+        <h1 class="heading-title">Farm Details</h1>
+        <form action="farmdetails.php" method="post" class="book-form">
+            <div class="flex">
+                <div class="inputBox">
+                    <span>Name of the owner : </span><br>
+                    <input type="text" value="Chisaka Fred" name="name">
+                </div>
+                <div class="inputBox">
+                    <span>Farm's Id: </span><br>
+                    <input type="text" value="1233jhghjbn8" name="farmerid">
+                </div>
+                <div class="inputBox">
+                    <span>Farm size : </span><br>
+                    <input type="text" value="94.65ha" name="farmsize">
+                </div>
+                <div class="inputBox">
+                    <span>Crops : </span><br>
+                    <input type="text" value="Sugarcane/Maize" name="crops">
+                </div>
+                <div class="inputBox">
+                    <span>address : </span><br>
+                    <input type="text" value="982,Mumias" name="address">
+                </div>
+                <div class="inputBox">
+                    <span>county : </span><br>
+                    <input type="text" value="Kakamega" name="county">
+                </div>
+            </div>
+            <input type="submit" value="submit" class="btn" name="send">
+            <button type="button" class="btn"><a href="../KEFRAM/Location map.html" style="color:white;">Location Map</a></button>
+        </form>
+    </section>
+
+    <!-- booking section ends -->
+
+    <!--footer section starts-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="../KEFRAM/index.html"><i class="fas fa-angle-right"></i> home</a>
+                <a href="../KEFRAM/services.html"><i class="fas fa-angle-right"></i> services</a>
+                <a href="../KEFRAM/fields.html"><i class="fas fa-angle-right"></i> fields</a>
+                <a href="../KEFRAM/operations.html"><i class="fas fa-angle-right"></i> operations</a>
+                <a href="../KEFRAM/register.html"><i class="fas fa-angle-right"></i> register</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="../KEFRAM/about.html"><i class="fas fa-angle-right"></i>ask questions</a>
+                <a href="../KEFRAM/about.html"><i class="fas fa-angle-right"></i>about us</a>
+                <a href="../KEFRAM/about.html"><i class="fas fa-angle-right"></i>privacy policy</a>
+                <a href="../KEFRAM/about.html"><i class="fas fa-angle-right"></i>terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+254-114-478-336</a>
+                <a href="#"><i class="fas fa-phone"></i>+254-757-961-176</a>
+                <a href="#"><i class="fas fa-map"></i>mumias, kenya - 50102</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/fred.chisaka"><i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i>twitter</a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i>linkedin</a>
+            </div>
+        </div>
+        <div class="credit"> created by<span> fred chisaka</span> | all rights reserved!! </div>
+
+    </section>
+    <!-- footer section ends -->
+
+    <!--Swiper js link-->
+    <script src=" https://unpkg.com/swiper@7/swiper-bundle.min.js "></script>
+
+    <!--custom js link-->
+    <script src="script.js ">
+    </script>
+
+</body>
+
+</html>
