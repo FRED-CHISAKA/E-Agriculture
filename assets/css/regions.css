@@ -93,7 +93,7 @@
         display: none;
     }
 .fields{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(maize2.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/maize2.PNG) no-repeat;
     background-size: cover;
     background-position: center;
     color:white;
@@ -101,37 +101,37 @@
     text-align: center;
 }
 .fields1{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(wheat.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../images/wheat.PNG) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .fields2{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(slide1.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../images/slides/slide1.PNG) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .fields3{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(millet.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../images/millet.PNG) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .fields4{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(img18.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../images/img18.PNG) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .fields5{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(maize.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../images/maize.PNG) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .fields6{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(rice.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/rice.PNG) no-repeat;
     background-size: cover;
     background-position: center;
 }
 .fields7{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(rice.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/rice.PNG) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -226,82 +226,82 @@ button a:hover, button a{
     transition: transform 0.5s;
 }
 .places1{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(img15.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/img15.jpg);
 }
 .places2{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url(livestock2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)),url(../images/livestock2.PNG);
 }
 .places3{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(sugarcane.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(../images/sugarcane.png);
 }
 .places4{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(slide1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../images/slides/slide1.PNG);
 }
 .places5{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(avocado.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/avocado.PNG);
 }
 .places6{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(livestock.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/livestock.PNG);
 }
 .places7{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(pyrethrum.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(../images/pyrethrum.PNG);
 }
 .places8{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(cotton.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../images/cotton.PNG);
 }
 .places9{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(flowers.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/flowers.PNG);
 }
 .places10{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(coffee.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/coffee.PNG);
 }
 .places11{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(sisal.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(../images/sisal.PNG);
 }
 .places12{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(cassava.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../images/cassava.PNG);
 }
 .places13{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(millet.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/millet.PNG);
 }
 .places14{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(cashewnuts.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/cashewnuts.PNG);
 }
 .places15{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(rice.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../images/rice.PNG);
 }
 .places16{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(sorghum.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/sorghum.PNG);
 }
 .places17{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(wheat.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/wheat.PNG);
 }
 .places18{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(watermelon.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../images/watermelon.PNG);
 }
 .places19{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(onions.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/onions.PNG);
 }
 .places20{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(cowpeas.png);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/cowpeas.png);
 }
 .places21{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(irishp.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(../images/irishp.PNG);
 }
 .places22{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(sweetp.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../images/sweetp.PNG);
 }
 .places23{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(kales.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/kales.PNG);
 }
 .places24{
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(mangoes.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),url(../images/mangoes.PNG);
 }
 .places25{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(beans.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.4)),url(../images/beans.PNG);
 }
 .places26{
-    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(pea.png);
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.4)),url(../images/pea.png);
 }
 .places:hover{
     transform: translateY(-10px);
@@ -334,7 +334,7 @@ h5{
 }
 
 .footer {
-        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(footerbg12.jpg) no-repeat;
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(../images/footerbackground.PNG) no-repeat;
         background-size: cover;
         background-position: center;
     }
